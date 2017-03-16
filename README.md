@@ -1,6 +1,6 @@
 # serve-webp
 Create a new middleware function to serve images from within a given root directory. The images to serve will be determined by combining req.url with the provided root directory.
-When browser support [webp](https://developers.google.com/speed/webp/),this module will convert the local file to webp and save into specify cache directory and response as webp,otherwise it will call next() to move on to the next middleware
+When browser support [webp](https://developers.google.com/speed/webp/),this module will convert the local images(jpg,gif,png) to webp and save into specify cache directory and response as webp,otherwise it will call next() to move on to the next middleware
 
 
 # Installation
