@@ -25,7 +25,7 @@ app.get('/*',serveWebp({
 ### root
 images root directory
 ```
-use path.join(root, url) as file path
+use path.join(root, req.url) as file path
 ```
 
 ### cache
