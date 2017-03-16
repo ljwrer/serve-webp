@@ -1,14 +1,27 @@
 {
   "name": "serve-webp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serve static files convert to webp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "webp",
+    "static",
+    "express",
+    "image"
+  ],
+  "author": "ljwrer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljwrer/serve-webp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljwrer/serve-webp/issues"
+  },
+  "homepage": "https://github.com/ljwrer/serve-webp",
   "dependencies": {
     "mkdirp": "^0.5.1",
     "ua-parser-js": "^0.7.12",
